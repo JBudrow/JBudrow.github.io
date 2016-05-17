@@ -6,14 +6,27 @@
  * Made By MaterializeCSS.com
  */
 
-.icon-block {
-  padding: 0 15px;
-}
-.icon-block .material-icons {
-	font-size: inherit;
-}
+ .icon-block {
+   padding: 0 15px;
+ }
 
-html {
+ .icon-block .material-icons {
+ 	font-size: inherit;
+ }
+
+ #Layer_1 {
+   width: 1.5em;
+   height: 1.5em;
+ }
+
+ .icon {
+   width: 1.5em;
+   height: 1.5em;
+   vertical-align: middle;
+   padding-right: .5em
+ }
+
+ html {
    height: 100%;
  }
 
@@ -27,16 +40,6 @@ html {
    flex-direction: column;
  }
 
- nav,
- .navigation-image {
-   display: flex;
-   width: 100%;
-   height: 500px;
-   background-image: url('/images/nepal-crop.jpg');
- }
-
- footer.page-footer {
-   border-top: solid 1px #404040;
-   margin-top: 20px;
-   padding-top: 20px;
+ footer, .page-footer {
+   border-top: solid 1px;
  }

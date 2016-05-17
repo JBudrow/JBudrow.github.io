@@ -10,34 +10,37 @@
 </head>
 
 <body>
-  <nav>
-    <div class="nav-wrapper">
-      <a href="#" class="brand-logo">Logo</a>
+ <nav class="transparent" role="navigation">
+   <div class="nav-wrapper">
+ <img src="http://i.imgur.com/pHgKhM9.jpg" style="width:100%;height:100%;visibility:inherit;background-image: url("http://i.imgur.com/pHgKhM9.jpg");background-size:cover;background-position:50% 0%;background-repeat:no-repeat;">
+   <img src="https://i.ytimg.com/vi/Vj6bdsw55Ac/maxresdefault.jpg" style="width:60;height:60;" class="brand-logo blue-grey-text">josh budrow</a>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#resume">Resume</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a class="blue-grey-text text-darken-3" href="#home">Home</a></li>
+        <li><a class="blue-grey-text text-darken-3" href="#about">About</a></li>
+        <li><a class="blue-grey-text text-darken-3" href="#resume">Resume</a></li>
+        <li><a class="blue-grey-text text-darken-3" href="#contact">Contact</a></li>
       </ul>
     </div>
   </nav>
 
   <div id="home" class="container" style="display: none;">
     <i class="material-icons">store</i>
-    <h2>Home</h2>
-    <p>rare aspirations</p>
+    <h5>About</h5>
+    <p>I'm an Atlanta-based web developer with an eye for scalable, fault-tolerant, operationalized       software. Build now, Play later.</p>
   </div>
 
   <div id="about" class="container" style="display: none;">
     <i class="material-icons">whatshot</i>
     <h2>About</h2>
-    <p>Background and current history</p>
+    <p>I am a rare breed who has a thirst for geek culture, foreign lands, and disc golf. I try to take my dog, Starfox, wherever I can.</p>
   </div>
 
   <div id="resume" class="container" style="display: none;">
     <i class="material-icons">description</i>
     <h2>Resume</h2>
-    <p>PDF Download, Hardcode</p>
+    <ul>
+      <li>Ruby on Rails</li>
+      <li>
   </div>
 
   <div id="contact" style="display: none;">
@@ -46,36 +49,34 @@
     <p>Cellphone, Email, Fax</p>
   </div>
 
-  <footer class="page-footer">
-    <div class="container">
-      <div class="row">
-        <div class="col l6 s12">
-          <h5 class="white-text">Footer Content</h5>
-          <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
-        </div>
-        <div class="col l4 offset-l2 s12">
-          <h5 class="white-text">Links</h5>
-          <ul>
-            <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
-            <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
-            <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
-            <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-    <div class="footer-copyright">
-      <div class="container">
-        © 2014 Copyright Text
-        <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
-      </div>
-    </div>
-  </footer>
+
+            <footer class="page-footer transparent">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5 class="black-text">Footer Content</h5>
+                          <p>
+                <svg class="earth icon"><use xlink:href="#icon-earth"></use>                <symbol id="icon-earth" viewBox="0 0 1024 1024">
+                    <path class="path1" d="M874.040 149.962c96.702 96.704 149.96 225.28 149.96 362.040s-53.258 265.334-149.96 362.038c-96.706 96.702-225.28 149.96-362.040 149.96s-265.334-53.258-362.040-149.96c-96.702-96.704-149.96-225.278-149.96-362.038s53.254-265.336 149.96-362.040c96.706-96.704 225.28-149.962 362.040-149.962s265.334 53.258 362.040 149.962zM828.784 828.786c63.058-63.060 104.986-141.608 122.272-227.062-13.474 19.836-26.362 27.194-34.344-17.206-8.22-72.39-74.708-26.148-116.516-51.86-44.004 29.658-142.906-57.662-126.098 40.824 25.934 44.422 140.008-59.45 83.148 34.542-36.274 65.616-132.642 210.932-120.106 286.258 1.582 109.744-112.134 22.884-151.314-13.52-26.356-72.92-8.982-200.374-77.898-236.086-74.802-3.248-139.004-10.046-167.994-93.67-17.446-59.828 18.564-148.894 82.678-162.644 93.85-58.966 127.374 69.054 215.39 71.434 27.328-28.594 101.816-37.686 107.992-69.75-57.75-10.19 73.268-48.558-5.528-70.382-43.47 5.112-71.478 45.074-48.368 78.958-84.238 19.642-86.936-121.904-167.91-77.258-2.058 70.59-132.222 22.886-45.036 8.572 29.956-13.088-48.86-51.016-6.28-44.124 20.916-1.136 91.332-25.812 72.276-42.402 39.21-24.34 72.16 58.29 110.538-1.882 27.708-46.266-11.62-54.808-46.35-31.356-19.58-21.924 34.57-69.276 82.332-89.738 15.918-6.82 31.122-10.536 42.746-9.484 24.058 27.792 68.55 32.606 70.878-3.342-59.582-28.534-125.276-43.608-193.292-43.608-97.622 0-190.47 31.024-267.308 88.39 20.65 9.46 32.372 21.238 12.478 36.296-15.456 46.054-78.17 107.876-133.224 99.124-28.586 49.296-47.412 103.606-55.46 160.528 46.112 15.256 56.744 45.45 46.836 55.55-23.496 20.488-37.936 49.53-45.376 81.322 15.010 91.836 58.172 176.476 125.27 243.576 84.616 84.614 197.118 131.214 316.784 131.214 119.664 0 232.168-46.6 316.784-131.214z"></path></svg>
+                Georgia, United States
+            </p>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <h5 class="black-text">Links</h5>
+                <ul>
+                  <li><a class="grey-text" href="#!">Link 1</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+    </footer>
 
   <!--  Scripts-->
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
-  <script src="js/main.js"></script>
 
 </body>
