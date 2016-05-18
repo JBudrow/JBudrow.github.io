@@ -6,12 +6,9 @@
  * Made By MaterializeCSS.com
  */
 
- .icon-block {
-   padding: 0 15px;
- }
-
- .icon-block .material-icons {
- 	font-size: inherit;
+ .header-img {
+   width: 20em;
+   height: 20em;
  }
 
  #Layer_1 {
@@ -26,12 +23,17 @@
    padding-right: .5em
  }
 
- html {
+ /* html {
    height: 100%;
- }
+ } */
 
  main {
    flex: 1 0 auto;
+ }
+
+ svg {
+   width: 3em;
+   height: 3em;
  }
 
  body {
@@ -40,6 +42,6 @@
    flex-direction: column;
  }
 
- footer, .page-footer {
-   border-top: solid 1px;
+ .row {
+   flex: 1;
  }
