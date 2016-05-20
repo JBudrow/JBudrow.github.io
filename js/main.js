@@ -12,11 +12,3 @@ $('#nav-mobile li, ul.right.hide-on-med-and-down li').click(function(e){
 	}
 	e.preventDefault();
 });
-
-(function($){
-  $(function(){
-
-    $('.button-collapse').sideNav();
-
-  }); // end of document ready
-})(jQuery); // end of jQuery name space
