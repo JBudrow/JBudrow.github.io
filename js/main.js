@@ -1,9 +1,3 @@
-$('.button-collapse').sideNav({
-	menuWidth:300,
-	edge: 'left'
-}
-);
-
 $('#nav-mobile li, ul.right.hide-on-med-and-down li').click(function(e){
 	var currentContainer = '#' + $('.current').attr('id');
 	var clickedContainer = $(this).children(":first").attr('href');
