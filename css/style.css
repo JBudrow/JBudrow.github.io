@@ -6,33 +6,9 @@
  * Made By MaterializeCSS.com
  */
 
- #Layer_1 {
-   width: 1.5em;
-   height: 1.5em;
+ .icon-block {
+   padding: 0 15px;
  }
-
- .icon {
-   width: 1.5em;
-   height: 1.5em;
-   vertical-align: middle;
-   padding-right: .5em
- }
-
- main {
-   flex: 1 0 auto;
- }
-
- svg {
-   width: 3em;
-   height: 3em;
- }
-
- body {
-   display: flex;
-   min-height: 100vh;
-   flex-direction: column;
- }
-
- .row {
-   flex: 1;
+ .icon-block .material-icons {
+ 	font-size: inherit;
  }
