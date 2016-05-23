@@ -42,6 +42,23 @@ div.col-sm-6 {
   padding-top: 3em;
 }
 
+#menulist {
+  text-align: center;
+  list-style-type: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.menu-item {
+  list-style-type: none;
+  display: inline-block;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 0;
+}
+
 /* Images
 ----------------------------------------------------- */
 
@@ -57,6 +74,7 @@ svg {
 
 svg#Layer_2 {
   height: 40px;
+  margin: 0 auto;
 }
 
 img.portfolio-image {
