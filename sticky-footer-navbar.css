@@ -62,8 +62,10 @@ div.col-sm-6 {
 /* Images
 ----------------------------------------------------- */
 
-svg.earth.icon {
-  height: 15px;
+svg#icon-earth {
+  height: 27px;
+  width: 35px;
+  padding-top: 10px;
 }
 
 svg {
