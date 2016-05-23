@@ -23,7 +23,7 @@ body {
 /* Not required for template or sticky footer method. */
 
 body > .container {
-  padding: 60px 15px 0;
+  padding: 100px 15px 0;
 }
 .container .text-muted {
   margin: 20px 0;
@@ -38,7 +38,12 @@ code {
   font-size: 80%;
 }
 
-/* Svg icons */
+div.col-sm-6 {
+  padding-top: 3em;
+}
+
+/* Images
+----------------------------------------------------- */
 
 svg.earth.icon {
   height: 15px;
@@ -47,9 +52,15 @@ svg.earth.icon {
 svg {
   height: 100px;
   width: 100px;
-  padding-left: 5%;
+  margin-left: 4em;
 }
 
 svg#Layer_2 {
   height: 40px;
+}
+
+img.portfolio-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 2.5%
 }

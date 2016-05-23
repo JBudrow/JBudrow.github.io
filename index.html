@@ -52,20 +52,9 @@
         <ul class="nav navbar-nav">
           <li class="active"><a href="#">HOME</a></li>
           <li><a href="#about">ABOUT</a></li>
+          <li><a href="#portfolio">PORTFOLIO</a></li>
           <li><a href="#resume">RESUME</a></li>
           <li><a href="#contact">CONTACT</a></li>
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">DROPDOWN <span class="caret"></span></a>
-            <ul class="dropdown-menu">
-              <li><a href="#">Action</a></li>
-              <li><a href="#">Another action</a></li>
-              <li><a href="#">Something else here</a></li>
-              <li role="separator" class="divider"></li>
-              <li class="dropdown-header">Nav header</li>
-              <li><a href="#">Separated link</a></li>
-              <li><a href="#">One more separated link</a></li>
-            </ul>
-          </li>
         </ul>
       </div>
       <!--/.nav-collapse -->
@@ -74,8 +63,8 @@
 
   <!-- Begin page content -->
   <div id="home" class="container">
-    <div class="page-header">
-      <img src="/assets/images/tess.png" style="height:100px;">
+    <div class="clearfix page-header">
+      <img class="pull-left" src="/assets/images/tess.png" style="height:100px;">
       <h1>I AM RARE</h1>
     </div>
     <p class="lead">
@@ -84,18 +73,71 @@
   </div>
 
   <div id="about" class="container">
-    <div class="page-header">
-      <img src="/assets/images/hex.png" style="height:100px;">
+    <div class="clear-fix page-header">
+      <img class="pull-left" src="/assets/images/hex.png" style="height:100px;">
       <h1>ABOUT</h1>
     </div>
     <p class="lead">
-      I am a rare breed who has a thirst for geek culture, foreign lands, and trending technologies.
+      I am a rare breed who has an insatiable thirst for geek culture, foreign lands, and trending technologies.
     </p>
   </div>
 
+  <div id="portfolio" class="container">
+    <div class="clearfix page-header">
+      <img class="pull-left" src="assets/images/tri.png" style="height:100px;">
+      <h1>PORTFOLIO</h1>
+    </div>
+
+    <div class=row>
+      <div class="col-xs-4">
+        <img class="portfolio-image" src="/assets/images/reddit.png">
+      </div><br>
+      <div class="col-xs-8">
+        <p class="lead">Convergeddit</p>
+        <p>Languages</p>
+        <p>Ruby on Rails, Heroku</p>
+        <p>Team</p>
+        <p>1 Back End Engineer</p>
+        <p>Description</p>
+        <p>Reddit clone.</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-xs-4">
+      <img class="portfolio-image" src="/assets/images/deckbox.png">
+      </div><br>
+      <div class="col-xs-8">
+        <p class="lead">Planeswalkr</p>
+        <p>Languages</p>
+        <p>Ruby on Rails, Materialize</p>
+        <p>Team</p>
+        <p>9 Back End Engineers</p>
+        <p>Description</p>
+        <p>Deck builder.</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-xs-4">
+      <img class="portfolio-image" src="/assets/images/blueridgecabins.png">
+      </div><br>
+      <div class="col-xs-8">
+        <p class="lead">Cabin Fever</p>
+        <p>Languages</p>
+        <p>Ruby on Rails, React.js</p>
+        <p>Team</p>
+        <p>2 Front End Developers</p>
+        <p>2 Back End Engineers</p>
+        <p>Description</p>
+        <p>Cabin search.</p>
+      </div>
+    </div>
+  </div>
+
   <div id="resume" class="container">
-    <div class="page-header">
-      <img src="/assets/images/fib.png" style="height:100px;">
+    <div class="clearfix page-header">
+      <img class="pull-left" src="/assets/images/fib.png" style="height:100px;">
       <h1>RESUME</h1>
     </div>
     <p class="lead">Tools & Libraries </p>
@@ -198,11 +240,25 @@
         </svg>
       </a>
     </div>
-  </div>
+    <br>
+
+    <div class="col-sm-6">
+      <p class="lead">Experience</p>
+      <p class="lead">The Iron Yard / Feb-May 2016</p>
+      <span>Twelve-week intensive immersion coding program.</span>
+      <span>Back End Curriculum including but not limited to Ruby on Rails, data analytics, object oriented principles, test driven development, agile software development.</span>
+    </div>
+
+    <div class="col-sm-6">
+      <p class="lead">Education</p>
+      <p class="lead">Gordon State College / Fall 2011</p>
+      <span>Humanities Major</span>
+    </div>
+  </div>    
 
   <div id="contact" class="container">
-    <div class="page-header">
-      <img src="/assets/images/vor.jpg" style="height:100px;">
+    <div class="clearfix page-header">
+      <img class="pull-left" src="/assets/images/vor.jpg" style="height:100px;">
       <h1>CONTACT</h1>
     </div>
     <p class="lead">
