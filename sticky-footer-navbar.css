@@ -70,9 +70,9 @@ svg#icon-earth {
 }
 
 svg {
-  height: 100px;
-  width: 100px;
-  margin-left: 4em;
+  height: 75px;
+  width: 140px;
+  margin-left: 15px;
 }
 
 svg#Layer_2 {
@@ -84,4 +84,8 @@ img.portfolio-image {
   width: 150px;
   height: 150px;
   border-radius: 2.5%
+}
+
+path.st2 {
+ fill: black;
 }
