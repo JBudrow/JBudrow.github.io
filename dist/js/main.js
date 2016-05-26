@@ -1,6 +1,6 @@
-// $(document).ready(function() {
-//     $('div').fadeIn('slow');
-// });
+$(document).ready(function() {
+    $('div').fadeIn('slow');
+});
 
 $(function() {
 		$('.pop').on('click', function() {
