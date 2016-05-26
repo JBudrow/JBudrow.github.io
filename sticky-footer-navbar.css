@@ -60,6 +60,10 @@ svg {
   height: 45px;
 }
 
+svg#Layer_1 {
+  height: 25px;
+}
+
 svg#Layer_2 {
   height: 40px;
   margin: 0 auto;
