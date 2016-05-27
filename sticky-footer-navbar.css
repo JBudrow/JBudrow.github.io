@@ -60,13 +60,13 @@ svg {
   height: 45px;
 }
 
-svg#Layer_1 {
-  height: 25px;
-}
-
 svg#Layer_2 {
   height: 40px;
   margin: 0 auto;
+}
+
+svg#Layer_1 {
+  height: 25px;
 }
 
 img.portfolio-image {
@@ -76,7 +76,7 @@ img.portfolio-image {
 }
 
 /* Sidebar
----------------------------------------------------*/
+----------------------------------------------------*/
 
 div.sidebar-nav-fixed.pull-right.affix {
   width: 250px;
@@ -86,9 +86,19 @@ div.sidebar-nav-fixed.pull-right.affix {
   list-style-type: none;
 }
 
-div.col-md-4.col-md-offset-2 {
+div.col-md-offset-8 {
   border-right: 1px solid grey;
   margin-right: 42px;
+}
+
+div.sidebar-nav-fixed.pull-right.affix {
+  top: 5em;
+}
+
+div.col-xs-2.col-md-offset-2 {
+  margin-left: 0px;
+  left: 30px;
+  padding-right: 75px;
 }
 
 ul#twitter.nav {
