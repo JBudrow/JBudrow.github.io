@@ -70,37 +70,14 @@ svg#Layer_1 {
 }
 
 img.portfolio-image {
-  width: 150px;
-  height: 150px;
   border-radius: 2.5%;
 }
 
-/* Sidebar
-----------------------------------------------------*/
-
-div.sidebar-nav-fixed.pull-right.affix {
-  width: 250px;
+li.sidebar-social {
+  list-style: none;
+  display: inline;
 }
 
-.sidebar-social {
-  list-style-type: none;
-}
-
-div.col-md-offset-8 {
-  border-right: 1px solid grey;
-  margin-right: 42px;
-}
-
-div.sidebar-nav-fixed.pull-right.affix {
-  top: 5em;
-}
-
-div.col-xs-2.col-md-offset-2 {
-  margin-left: 0px;
-  left: 30px;
-  padding-right: 75px;
-}
-
-ul#twitter.nav {
-  margin-top: 14px;
+div#upper-nav.container {
+  background-color: white;
 }
