@@ -43,6 +43,12 @@ div.col-sm-6 {
   margin-right: 120px;
 }
 
+ul#tabs {
+  display: inline-flex;
+  list-style-type: none;
+  padding: 0;
+}
+
 /* Images */
 
 svg#icon-earth {
