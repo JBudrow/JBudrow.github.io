@@ -53,6 +53,10 @@ div#my-tab-content.tab-content {
   padding-top: 2em;
 }
 
+div.clearfix.page-header {
+  width: 1120px;
+}
+
 /* Images */
 
 svg#icon-earth {
