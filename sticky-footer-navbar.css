@@ -1,14 +1,46 @@
+ul.nav.navbar-nav.side-nav li {
+  margin-bottom: 3em;
+}
+
+#container-body {
+  width: 970;
+}
+
+img.resume-tools-libraries-img {
+  height: 8em;
+  margin-bottom: 40px;
+}
+
+.col-md-4 {
+  padding: 0 0 0 25px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #EEEEEE;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
 /* Custom */
 .collapse.navbar-collapse.navbar-ex1-collapse {
   background-color: #EEEEEE;
 }
 
-.nav.navbar.navbar-inverse.navbar-fixed-top {
-  border-bottom: none;
-}
-
 body {
     margin-top: 100px;
+    margin-bottom: 60px;
     background-color: #222;
 }
 
@@ -225,4 +257,13 @@ ul.alert-dropdown {
 
 .panel-yellow > a:hover {
     color: #df8a13;
+}
+
+/* .nav.navbar.navbar-inverse.navbar-fixed-top {
+  border-bottom: none;
+} */
+
+.navbar-inverse {
+  background-color: transparent;
+  border-color: transparent;
 }

@@ -29,6 +29,7 @@
 
 <body>
 
+  <!-- Wrapper -->
   <div id="wrapper">
 
     <!-- Navigation -->
@@ -126,7 +127,7 @@
           </ul>
         </li>
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> Derp <b class="caret"></b></a>
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> John Smith <b class="caret"></b></a>
           <ul class="dropdown-menu">
             <li>
               <a href="#"><i class="fa fa-fw fa-user"></i> Profile</a>
@@ -148,6 +149,7 @@
       <div class="collapse navbar-collapse navbar-ex1-collapse">
         <ul class="nav navbar-nav side-nav">
           <li>
+            <!-- TODO What the hell does 'fa fa-fw fa-...' do? Probably won't need it -->
             <a href="#"><i class="fa fa-fw fa-dashboard"></i> Portfolio</a>
           </li>
           <li>
@@ -159,66 +161,207 @@
           <li>
             <a href="#"><i class="fa fa-fw fa-edit"></i> Contact</a>
           </li>
+          <!-- TODO Running 'active' won't be necessary, we are not rendering any other pages but one -->
+          <!-- TODO Well, unless we want to set 'active' to the subdirectory 'portfolio' and toss 'li' above -->
+          <li class="active">
+            <a href="#"><i class="fa fa-fw fa-desktop"></i> Bootstrap Elements</a>
+          </li>
+          <li>
+            <a href="#"><i class="fa fa-fw fa-wrench"></i> Bootstrap Grid</a>
+          </li>
         </ul>
       </div>
       <!-- /.navbar-collapse -->
     </nav>
 
+    <!-- Page Wrapper -->
     <div id="page-wrapper">
 
       <div class="container-fluid">
-      <!-- row test -->
-        <div class="row">
-        <!-- div test -->
-          <div class="col-md-9">
+      <!-- div test -->
+        <div id="container-body" class="container">
 
-            <!-- Portfolio -->
-            <div class="jumbotron">
-              <h1>Portfolio</h1>
-              <p>TODO</p>
-              <p><a href="#" class="btn btn-primary btn-lg" role="button">Learn more &raquo;</a>
-              </p>
-            </div>
-
-            <!-- About -->
-            <div class="jumbotron">
-              <h1>About</h1>
-              <p>TODO</p>
-              <p><a href="#" class="btn btn-primary btn-lg" role="button">Learn more &raquo;</a>
-              </p>
-            </div>
-
-            <!-- Resume -->
-            <div class="jumbotron">
-              <h1>Resume</h1>
-              <p>TODO</p>
-              <p><a href="#" class="btn btn-primary btn-lg" role="button">Learn more &raquo;</a>
-              </p>
-            </div>
-
-            <!-- Contact -->
-            <div class="jumbotron">
-              <h1>Contact</h1>
-              <p>TODO</p>
-              <p><a href="#" class="btn btn-primary btn-lg" role="button">Learn more &raquo;</a>
-              </p>
-            </div>
-
+          <!-- Page Heading -->
+          <!-- <div class="row">
+          <div class="col-lg-12">
+            <h1 class="page-header">
+                            Bootstrap Elements
+                        </h1>
+            <ol class="breadcrumb">
+              <li>
+                <i class="fa fa-dashboard"></i> <a href="index.html">Dashboard</a>
+              </li>
+              <li class="active">
+                <i class="fa fa-desktop"></i> Bootstrap Elements
+              </li>
+            </ol>
           </div>
-        <!-- row test /.row -->
+        </div> -->
+          <!-- /.row -->
+
+          <!-- Portfolio -->
+          <!-- Votr -->
+          <div id="resume-votr" class="row">
+          <div id="resume-header" class="jumbotron"><h1>Portfolio</h1></div>
+          <div class="jumbotron">
+            <div class="col-sm-7 col-lg-5">
+              <img class="img-responsive" src="https://guides.github.com/features/issues/listing-screen.png" alt="" style="height: 20em;">
+            </div>
+            <h2>Votr</h2>
+            <p>Users can view live political polling feed of votes going on locally or nationality.</p>
+            <p><a href="#" class="btn btn-default btn-lg" role="button">Learn more &raquo;</a>
+          </p>
+          </div>
+          <!-- jumbotron -->
+        </div>
+          <!-- /.#resume-votr -->
+
+          <!-- Cabinfever -->
+          <div id="resume-cabinfever" class="row">
+          <div class="jumbotron">
+            <!-- Cabinfever -->
+            <div class="col-sm-7 col-lg-5">
+              <img class="img-responsive" src="https://guides.github.com/features/issues/listing-screen.png" alt="" style="height: 20em;">
+            </div>
+            <h2>Cabinfever</h2>
+            <p>Cabin Fever is an app that seeks to make finding that perfect cabin easier. We provide a place where cabin owners, regardless of which management company they use, can list their cabin for rent and have their guests share their experiences.</p>
+            <p><a href="#" class="btn btn-default btn-lg" role="button">Learn more &raquo;</a>
+          </p>
+          </div>
+          <!-- /.jumbotron -->
+        </div>
+          <!-- /#resume-cabinfever -->
+
+          <!-- Rarefit -->
+          <div id="resume-rarefit" class="row">
+            <div class="jumbotron">
+            <!-- Cabinfever -->
+              <div class="col-sm-7 col-lg-5">
+                <img class="img-responsive" src="https://guides.github.com/features/issues/listing-screen.png" alt="" style="height: 20em;">
+              </div>
+              <h2>Rarefit</h2>
+              <p>Share your workout routines with friends & family..</p>
+              <p><a href="#" class="btn btn-default btn-lg" role="button">Learn more &raquo;</a>
+          </p>
+          </div>
+          <!-- /.jumbotron -->
+          </div>
+          <!-- /#resume-rarefit -->
+
+          <!-- About -->
+          <div id="about" class="row">
+            <div id="about-header" class="jumbotron"><h1>About</h1></div>
+            <div class="jumbotron">
+              <!-- Who -->
+              <div id="about-who" class="col-md-4">
+                <h2>WHO</h2>
+                <p>I am a rare breed who has an instiable thirst for geek culture, foreign lands, and trending technologies. Father of a dog, Starfox. Avid book reader, current reads are 'The Witcher - The Last Wish' and 'Why Do Travel Writers Go To Hell'. When I am not at the computer screen, I enjoy a good hike, rounds of disc golf and attending hole in the wall concerts.</p>
+              </div>
+              <!-- What -->
+              <div id="about-what" class="col-md-4">
+                <h2>WHAT</h2>
+                <p>Recent back-end engineer graduate from a twelve week immersion program, The Iron Yard. Building and critical problem solving has always been my forte, including but not limited to cars, state of the art plastic manufacturing machines, and especially computers and furthermore web applications.</p>
+              </div>
+              <!-- Why -->
+              <div id="about-why" class="col-md-4">
+                <h2>WHY</h2>
+                <p>Aspirations has lead me to the path of a programmer, and implement and fortify my knowledge to a team of driven folks who are not shy of dedication, support, and development. Focused more on information technology; utilizing big data, writing tests for an unpenetrable software, and api infrastructure.</p>
+              </div>
+            </div>
+            <!-- Optional Button -->
+            <!-- <p><a href="#" class="btn btn-default btn-lg" role="button">Learn more &raquo;</a></p> -->
+          </div>
+          <!-- /#about -->
+
+          <!-- Resume -->
+          <div id="resume" class="row">
+            <!-- Resume Header -->
+            <div id="resume-header" class="jumbotron">
+              <h1>Resume
+                <br></br>
+                <span>
+                  <p>
+                    <a href="#" class="btn btn-default btn-lg" role="button">Learn more &raquo;</a>
+                  </p>
+                </span>
+              </h1>
+            </div>
+            <!-- Tools & Libraries -->
+            <div id="resume-tools-libraries-img">
+              <h2>Tools & Libraries</h2>
+              <br></br>
+              <div class="container">
+                <!-- Set One -->
+                <div class="col-xs-2">
+                <img class="resume-tools-libraries-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Atom_editor_logo.svg/2000px-Atom_editor_logo.svg.png">
+                <img class="resume-tools-libraries-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Atom_editor_logo.svg/2000px-Atom_editor_logo.svg.png">
+              </div>
+                <!-- Set Two -->
+                <div class="col-xs-2">
+                <img class="resume-tools-libraries-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Atom_editor_logo.svg/2000px-Atom_editor_logo.svg.png">
+                <img class="resume-tools-libraries-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Atom_editor_logo.svg/2000px-Atom_editor_logo.svg.png">
+              </div>
+                <!-- Set Three -->
+                <div class="col-xs-2">
+                <img class="resume-tools-libraries-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Atom_editor_logo.svg/2000px-Atom_editor_logo.svg.png">
+                <img class="resume-tools-libraries-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Atom_editor_logo.svg/2000px-Atom_editor_logo.svg.png">
+              </div>
+                <!-- Set Four -->
+                <div class="col-xs-2">
+                <img class="resume-tools-libraries-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Atom_editor_logo.svg/2000px-Atom_editor_logo.svg.png">
+                <img class="resume-tools-libraries-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Atom_editor_logo.svg/2000px-Atom_editor_logo.svg.png">
+              </div>
+                <!-- Set Five -->
+                <div class="col-xs-2">
+                <img class="resume-tools-libraries-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Atom_editor_logo.svg/2000px-Atom_editor_logo.svg.png">
+                <img class="resume-tools-libraries-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Atom_editor_logo.svg/2000px-Atom_editor_logo.svg.png">
+              </div>
+                <!-- Set Six -->
+                <div class="col-xs-2">
+                <img class="resume-tools-libraries-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Atom_editor_logo.svg/2000px-Atom_editor_logo.svg.png">
+                <img class="resume-tools-libraries-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Atom_editor_logo.svg/2000px-Atom_editor_logo.svg.png">
+              </div>
+              </div>
+
+              <h2>Experience</h2>
+
+              <!-- Optional Button -->
+              <!-- <p><a href="#" class="btn btn-default btn-lg" role="button">Learn more &raquo;</a></p> -->
+            </div>
+          </div>
+          <!-- /#resume -->
+
+          <!-- Contact -->
+          <div id="contact" class="jumbotron">
+            <div class="jumbotron"><h1>Contact</h1></div>
+            <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
+            <p><a href="#" class="btn btn-default btn-lg" role="button">Learn more &raquo;</a>
+          </p>
+          </div>
+          <!-- /#contact -->
+
         </div>
         <!-- div test /.col-lg-6 -->
+
       </div>
       <!-- /.container-fluid -->
+
     </div>
     <!-- /#page-wrapper -->
+
   </div>
   <!-- /#wrapper -->
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p class="text-muted">Place sticky footer content here.</p>
+    </div>
+  </footer>
 
   <!-- jQuery -->
   <script src="js/jquery.js"></script>
   <!-- Bootstrap Core JavaScript -->
   <script src="js/bootstrap.min.js"></script>
-
-  </body>
+</body>
 </html>
