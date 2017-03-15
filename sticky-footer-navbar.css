@@ -1,3 +1,29 @@
+/* TEST Header with side-lines */
+.decorated{
+     overflow: hidden;
+     text-align: center;
+ }
+.decorated > span{
+    position: relative;
+    display: inline-block;
+}
+.decorated > span:before, .decorated > span:after{
+    content: '';
+    position: absolute;
+    top: 50%;
+    border-bottom: 2px solid;
+    width: 150px; /* half of limiter */
+    margin: 0 20px;
+}
+.decorated > span:before{
+    right: 100%;
+}
+.decorated > span:after{
+    left: 100%;
+}
+
+/* TEST */
+
 ul.nav.navbar-nav.side-nav li {
   margin-bottom: 3em;
 }
@@ -100,8 +126,8 @@ body {
 .top-nav>.open>a,
 .top-nav>.open>a:hover,
 .top-nav>.open>a:focus {
-    color: #CCCCCC;
-    background-color: #DADADA;
+    color: #9E1810;
+    background-color: #F0DB4F;
 }
 
 .top-nav>.open>.dropdown-menu {
@@ -157,7 +183,7 @@ ul.alert-dropdown {
         border: none;
         border-radius: 0;
         overflow-y: auto;
-        background-color: #EEEEEE;
+        background-color: #DADADA;
         bottom: 0;
         overflow-x: hidden;
         padding-bottom: 40px;
@@ -169,7 +195,6 @@ ul.alert-dropdown {
 
     .side-nav li a:hover,
     .side-nav li a:focus {
-        outline: none;
         background-color: #DADADA !important;
     }
 }
@@ -263,4 +288,39 @@ ul.alert-dropdown {
 .navbar-inverse {
   background-color: transparent;
   border-color: transparent;
+}
+
+ul.nav.navbar-nav.side-nav {
+  background: transparent;
+}
+
+/* Images
+-------------------------------------------------- */
+
+svg#icon-earth {
+  height: 27px;
+  width: 35px;
+  padding-top: 10px;
+  margin-left: 28px;
+}
+
+path.st2 {
+ fill: black;
+}
+
+svg {
+  height: 45px;
+}
+
+svg#katman_1 {
+  height: 25px;
+  margin: 0 auto;
+}
+
+svg#Layer_1 {
+  height: 25px;
+}
+
+li.sidebar-social {
+  list-style: none;
 }
