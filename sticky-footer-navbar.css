@@ -38,6 +38,11 @@ div.container.jumbotron {
 
 /* TEST */
 
+div.navbar-header {
+  margin-left: 3em;
+  margin-top: 1em;
+}
+
 ul.nav.navbar-nav.side-nav li {
   margin-bottom: 3em;
 }
@@ -319,21 +324,23 @@ ul.nav.navbar-nav.side-nav {
 /* Images
 -------------------------------------------------- */
 
+svg#Capa_1 {
+  margin-right: 1em;
+}
+
 svg#icon-earth {
-  height: 27px;
   width: 35px;
   padding-top: 10px;
-  margin-left: 28px;
 }
 
 path.st2 {
  fill: black;
 }
 
-svg {
+/*svg {
   height: 80px;
   margin-bottom: 3em;
-}
+}*/
 
 svg#katman_1 {
   height: 25px;
