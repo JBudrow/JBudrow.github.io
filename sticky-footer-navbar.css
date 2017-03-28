@@ -1,3 +1,17 @@
+/* Override jumbotron */
+.jumbotron p {
+  margin-bottom: 0px;
+  font-size: 12px;
+}
+
+div#portfolio-header.jumbotron {
+  background-color: transparent;
+}
+
+div.container.jumbotron {
+  background-color: transparent;
+}
+
 /* TEST Header with side-lines */
 .decorated{
      overflow: hidden;
@@ -69,7 +83,7 @@ html {
 body {
     margin-top: 100px;
     margin-bottom: 60px;
-    background-color: #222;
+    background-color: transparent;
 }
 
 @media(min-width:768px) {
@@ -81,7 +95,7 @@ body {
 #page-wrapper {
     width: 100%;
     padding: 0;
-    background-color: #EEEEEE;
+    background-color: white;
 }
 
 .huge {
@@ -309,7 +323,8 @@ path.st2 {
 }
 
 svg {
-  height: 45px;
+  height: 80px;
+  margin-bottom: 3em;
 }
 
 svg#katman_1 {
