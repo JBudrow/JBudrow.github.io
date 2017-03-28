@@ -4,7 +4,7 @@
   font-size: 12px;
 }
 
-div#portfolio-header.jumbotron {
+.jumbotron {
   background-color: transparent;
 }
 
@@ -40,6 +40,10 @@ div.container.jumbotron {
 
 ul.nav.navbar-nav.side-nav li {
   margin-bottom: 3em;
+}
+
+ul.nav.navbar-nav.side-nav {
+  margin-top: 15em;
 }
 
 #container-body {
@@ -183,6 +187,10 @@ li.message-footer {
 
 ul.alert-dropdown {
     width: 200px;
+}
+
+div.nabvar-header {
+  padding: 15px 0 0 15px;
 }
 
 /* Side Navigation */
