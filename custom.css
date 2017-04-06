@@ -50,7 +50,7 @@ div.navbar-header {
 
 
 ul.nav.navbar-nav.side-nav {
-  margin-top: 8em;
+  margin-top: 3em;
 }
 
 #container-body {
@@ -156,14 +156,14 @@ body {
     color: #999;
 }
 
-.top-nav>li>a:hover,
+/*.top-nav>li>a:hover,
 .top-nav>li>a:focus,
 .top-nav>.open>a,
 .top-nav>.open>a:hover,
 .top-nav>.open>a:focus {
     color: #9E1810;
     background-color: #F0DB4F;
-}
+}*/
 
 .top-nav>.open>.dropdown-menu {
     float: left;
