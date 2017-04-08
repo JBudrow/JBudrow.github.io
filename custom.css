@@ -69,9 +69,8 @@ h1 {
   text-align: center;
   position: absolute;
   bottom: -22em;
-  max-width: 100%;
+  width: 100%;
   /* Set the fixed height of the footer here */
-  height: 60px;
   background-color: #EEEEEE;
 }
 
