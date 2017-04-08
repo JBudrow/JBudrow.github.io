@@ -44,13 +44,8 @@ div.container.jumbotron {
 /* TEST */
 
 div.navbar-header {
-  margin-left: 3em;
-  margin-top: 4em;
-}
-
-
-ul.nav.navbar-nav.side-nav {
-  margin-top: 3em;
+  margin-left: 1em;
+  margin-top: 8px;
 }
 
 #container-body {
@@ -74,7 +69,7 @@ h1 {
   text-align: center;
   position: absolute;
   bottom: -22em;
-  width: 100%;
+  max-width: 100%;
   /* Set the fixed height of the footer here */
   height: 60px;
   background-color: #EEEEEE;
@@ -143,7 +138,7 @@ body {
 /* Top Navigation */
 
 .top-nav {
-    padding: 30px 20px 0 0;
+    padding-right: 1em;
 }
 
 .top-nav>li {
@@ -216,9 +211,9 @@ div.nabvar-header {
 
 @media(min-width:768px) {
     .side-nav {
-        position: fixed;
-        top: 185px;
-        left: 225px;
+        position: relative;
+        top: 16em;
+        left: 75px;
         width: 225px;
         margin-left: -225px;
         border: none;
@@ -231,7 +226,7 @@ div.nabvar-header {
     }
 
     .side-nav>li>a {
-        width: 225px;
+        width: 200px;
     }
 
     .side-nav li a:hover,
@@ -327,8 +322,8 @@ div.nabvar-header {
 } */
 
 .navbar-inverse {
-  background-color: transparent;
-  border-color: transparent;
+  background-color: white;
+  border-color: #DADADA;
 }
 
 ul.nav.navbar-nav.side-nav {
@@ -337,10 +332,6 @@ ul.nav.navbar-nav.side-nav {
 
 /* Images
 -------------------------------------------------- */
-
-svg#Capa_1 {
-  margin-top: 1em;
-}
 
 svg#icon-earth {
   width: 15px;
