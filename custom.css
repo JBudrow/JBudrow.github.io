@@ -81,13 +81,13 @@ html {
 }
 
 /* Custom */
-div.col-sm-7.col-lg-7 {
+/*div.col-sm-7.col-lg-7 {
   border-radius: 5px 0 0 5px;
   background: #D3D3D3;
   height: 14em;
   padding: 15px 15px 15px 15px;
   box-shadow: inset -100px 0px 50px -75px #fff;
-}
+}*/
 
 body {
     max-width: 100%;
