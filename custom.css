@@ -364,3 +364,16 @@ svg#Layer_1 {
 li.sidebar-social {
   list-style: none;
 }
+
+/*Testing Mobile Dimensions*/
+#about-row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+#wrapper {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
