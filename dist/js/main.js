@@ -28,6 +28,10 @@ $(document).ready(function() {
     setInterval ('cursorAnimation()', 600);
 });
 
+$(function() {
+	 $('body').scrollTop(0);
+ });
+
 function cursorAnimation() {
     $('#cursor').animate({
         opacity: 0
