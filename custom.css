@@ -213,7 +213,7 @@ div.nabvar-header {
 @media(min-width:768px) {
     .side-nav {
         position: relative;
-        top: 16em;
+        top: 30em;
         left: 75px;
         width: 225px;
         margin-left: -225px;
