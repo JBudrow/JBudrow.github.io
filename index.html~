@@ -1,0 +1,269 @@
+<html lang="en">
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Joshua Budrow | Portfolio</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link href="custom.css" rel="stylesheet">
+
+  <!-- Devicon -->
+  <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/4f6a4b08efdad6bb29f9cc801f5c07e263b39907/devicon.min.css">
+
+  <!-- Custom Fonts -->
+  <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+
+  <!-- Wrapper -->
+  <div id="wrapper">
+
+    <!-- About -->
+    <h1>About me</h1>
+    <div>
+      <br><br>
+      <img src="/assets/images/cover_band.jpg" border="0"/>
+      <p id="about-me">
+        <b>
+          Joshua Budrow
+          [b<i>oo</i> d-roh]
+          , born 1990, <i>Software Engineer</i> with an addiction for nerd culture, comic expos, and trending technologies. Father of a dog, Starfox. Avid book reader, daily disc golfer, late-night programmer.
+        </b>
+      </p>
+
+      <p>Remote Ruby on Rails Support Tech Enginner for a Healthcare Information Technology Company, <i><a href="https://bioiq.com">BioIQ</i>.</p></a>
+
+      <p>
+        Contact me via:<br/>
+      </p>
+      <!-- Mail -->
+      <p>
+      	<svg version="1.1" id="media-icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+					 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+				<polygon style="fill:#BDDBFF;" points="0,72.348 0,139.13 33.391,139.13 33.391,172.522 66.783,172.522 66.783,205.913
+					100.174,205.913 100.174,239.304 133.565,239.304 133.565,439.652 211.478,439.652 211.478,406.261 244.87,406.261 244.87,372.87
+					278.261,372.87 278.261,339.478 311.652,339.478 311.652,306.087 345.043,306.087 345.043,272.696 378.435,272.696 378.435,239.304
+					411.826,239.304 411.826,205.913 445.217,205.913 445.217,172.522 478.609,172.522 478.609,139.13 512,139.13 512,72.348 "/>
+				<polygon style="fill:#9BC9FF;" points="512,72.348 445.217,72.348 445.217,139.13 378.435,139.13 378.435,172.522 278.261,172.522
+					278.261,205.913 211.478,205.913 211.478,239.304 133.565,239.304 133.565,439.652 211.478,439.652 211.478,406.261 244.87,406.261
+					244.87,372.87 278.261,372.87 278.261,339.478 311.652,339.478 311.652,306.087 345.043,306.087 345.043,272.696 378.435,272.696
+					378.435,239.304 411.826,239.304 411.826,205.913 445.217,205.913 445.217,172.522 478.609,172.522 478.609,139.13 512,139.13 "/>
+				<polygon points="0,72.348 0,139.13 33.391,139.13 33.391,105.739 478.609,105.739 478.609,139.13 512,139.13 512,72.348 "/>
+				<rect x="445.217" y="139.13" width="33.391" height="33.391"/>
+				<rect x="411.826" y="172.522" width="33.391" height="33.391"/>
+				<rect x="378.435" y="205.913" width="33.391" height="33.391"/>
+				<rect x="345.043" y="239.304" width="33.391" height="33.391"/>
+				<rect x="311.652" y="272.696" width="33.391" height="33.391"/>
+				<rect x="278.261" y="306.087" width="33.391" height="33.391"/>
+				<rect x="244.87" y="339.478" width="33.391" height="33.391"/>
+				<rect x="211.478" y="372.87" width="33.391" height="33.391"/>
+				<rect x="33.391" y="139.13" width="33.391" height="33.391"/>
+				<rect x="66.783" y="172.522" width="33.391" height="33.391"/>
+				<rect x="100.174" y="205.913" width="33.391" height="33.391"/>
+				<polygon points="166.957,272.696 211.478,272.696 211.478,239.304 133.565,239.304 133.565,439.652 211.478,439.652
+					211.478,406.261 166.957,406.261 "/>
+				<rect x="211.478" y="205.913" width="66.783" height="33.391"/>
+				<rect x="278.261" y="172.522" width="66.783" height="33.391"/>
+				</svg>
+        <a class='social-ref-ids' href="jbudrowd3@yahoo.com">jbudrowd3@yahoo.com</a>
+      </p>
+      <!-- LinkedIn -->
+      <p>
+        <svg version="1.1" id="media-icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+					 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+				<g>
+					<rect y="166.957" style="fill:#004FAC;" width="133.565" height="345.043"/>
+					<polygon style="fill:#004FAC;" points="100.174,33.391 100.174,0 33.391,0 33.391,33.391 0,33.391 0,100.174 33.391,100.174
+						33.391,133.565 100.174,133.565 100.174,100.174 133.565,100.174 133.565,33.391 	"/>
+					<polygon style="fill:#004FAC;" points="478.609,233.739 478.609,200.348 445.217,200.348 445.217,166.957 178.087,166.957
+						178.087,512 300.522,512 300.522,300.522 389.565,300.522 389.565,512 512,512 512,233.739 	"/>
+				</g>
+				<g>
+					<polygon style="fill:#FFFFFF;" points="33.391,0 33.391,33.391 0,33.391 0,66.783 33.391,66.783 66.783,66.783 66.783,33.391
+						66.783,0 	"/>
+					<polygon style="fill:#FFFFFF;" points="267.13,166.957 267.13,233.739 300.522,233.739 333.913,233.739 333.913,200.348
+						333.913,166.957 	"/>
+					<polygon style="fill:#FFFFFF;" points="178.087,166.957 178.087,233.739 211.478,233.739 244.87,233.739 244.87,200.348
+						244.87,166.957 	"/>
+					<polygon style="fill:#FFFFFF;" points="0,166.957 0,233.739 33.391,233.739 66.783,233.739 66.783,200.348 66.783,166.957 	"/>
+				</g>
+				<polygon points="267.13,478.609 211.478,478.609 211.478,200.348 267.13,200.348 267.13,233.739 300.522,233.739 300.522,200.348
+					445.217,200.348 445.217,166.957 178.087,166.957 178.087,512 300.522,512 300.522,300.522 267.13,300.522 "/>
+				<polygon points="478.609,233.739 478.609,478.609 422.957,478.609 422.957,300.522 389.565,300.522 389.565,512 512,512
+					512,233.739 "/>
+				<path d="M0,166.957V512h133.565V166.957H0z M100.174,478.609H33.391V200.348h66.783V478.609z"/>
+				<rect x="33.391" width="66.783" height="33.391"/>
+				<rect x="33.391" y="100.174" width="66.783" height="33.391"/>
+				<rect y="33.391" width="33.391" height="66.783"/>
+				<rect x="100.174" y="33.391" width="33.391" height="66.783"/>
+				<rect x="445.217" y="200.348" width="33.391" height="33.391"/>
+				<rect x="300.522" y="267.13" width="89.043" height="33.391"/>
+				</svg>
+        <a class='social-ref-ids' href="www.linkedin.com/in/jbudrow">@jbudrow</a>
+      </p>
+      <!-- Twitter -->
+      <p>
+      	<svg version="1.1" id="media-icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+					 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+				<polygon style="fill:#2488FF;" points="445.217,161.391 445.217,94.609 411.826,94.609 411.826,61.217 378.435,61.217
+					378.435,27.826 256,27.826 256,61.217 222.609,61.217 222.609,94.609 189.217,94.609 189.217,161.391 144.696,161.391 144.696,128
+					100.174,128 100.174,94.609 66.783,94.609 66.783,61.217 0,61.217 0,250.435 33.391,250.435 33.391,283.826 66.783,283.826
+					66.783,317.217 100.174,317.217 100.174,384 66.783,384 66.783,417.391 33.391,417.391 33.391,484.174 345.043,484.174
+					345.043,450.783 378.435,450.783 378.435,417.391 411.826,417.391 411.826,384 445.217,384 445.217,261.565 478.609,261.565
+					478.609,228.174 512,228.174 512,161.391 "/>
+				<g>
+					<polygon style="fill:#FFFFFF;" points="100.174,128 100.174,94.609 66.783,94.609 66.783,61.217 0,61.217 0,128 66.783,128
+						66.783,161.391 100.174,161.391 100.174,194.783 144.696,194.783 144.696,128 	"/>
+					<polygon style="fill:#FFFFFF;" points="133.565,317.217 133.565,350.609 100.174,350.609 100.174,384 66.783,384 66.783,417.391
+						33.391,417.391 33.391,484.174 100.174,484.174 100.174,417.391 133.565,417.391 133.565,384 166.957,384 166.957,317.217 	"/>
+					<polygon style="fill:#FFFFFF;" points="256,27.826 256,61.217 222.609,61.217 222.609,94.609 189.217,94.609 189.217,128 256,128
+						256,94.609 289.391,94.609 289.391,27.826 	"/>
+				</g>
+				<rect x="256" y="27.826" width="122.435" height="33.391"/>
+				<polygon points="133.565,350.609 166.957,350.609 166.957,317.217 100.174,317.217 100.174,384 133.565,384 "/>
+				<polygon points="66.783,417.391 33.391,417.391 33.391,484.174 345.043,484.174 345.043,450.783 66.783,450.783 "/>
+				<rect x="222.609" y="61.217" width="33.391" height="33.391"/>
+				<polygon points="222.609,194.783 222.609,94.609 189.217,94.609 189.217,161.391 144.696,161.391 144.696,194.783 "/>
+				<rect x="378.435" y="61.217" width="33.391" height="33.391"/>
+				<polygon points="445.217,161.391 445.217,94.609 411.826,94.609 411.826,194.783 478.609,194.783 478.609,228.174 512,228.174
+					512,161.391 "/>
+				<rect x="378.435" y="384" width="33.391" height="33.391"/>
+				<rect x="66.783" y="384" width="33.391" height="33.391"/>
+				<rect x="345.043" y="417.391" width="33.391" height="33.391"/>
+				<rect x="445.217" y="228.174" width="33.391" height="33.391"/>
+				<rect x="411.826" y="261.565" width="33.391" height="122.435"/>
+				<rect x="100.174" y="128" width="44.522" height="33.391"/>
+				<rect x="66.783" y="94.609" width="33.391" height="33.391"/>
+				<polygon points="66.783,94.609 66.783,61.217 0,61.217 0,250.435 33.391,250.435 33.391,94.609 "/>
+				<rect x="33.391" y="250.435" width="33.391" height="33.391"/>
+				<rect x="66.783" y="283.826" width="33.391" height="33.391"/>
+				</svg>
+        <a class='social-ref-ids' href="www.twitter.com/joshbudrow">@joshbudrow</a>
+      </p>
+    </div>
+    <br><br>
+
+    <div id="projects">
+      <h3>Projects</h3>
+      <br>
+      <p>
+        I helped develop The Iron Yard applications
+        <a class="social-ref-ids" href="https://github.com/TeamFacepalm">Votr</a>,
+        <a class="social-ref-ids" href="https://github.com/GetCabinFever">Cabin Fever</a>,
+        <a class="social-ref-ids" href="https://github.com/JBudrow/rarefit-social">Rarefit Social</a>.
+      </p>
+      <br>
+      <p>
+        I am currently developing a NASA application program interface <i>Ruby gem</i>, data generously provided by
+        <a class="social-ref-ids" href="https://api.nasa.gov/"> NASA Open APIs.</a>
+      </p>
+      <br>
+      <p>
+        Find me at <a class="social-ref-ids" href="https://github.com/JBudrow">@jbudrow at Github.</a>
+      </p>
+    </div>
+    <br><br>
+
+    <div id="languages">
+      <h3>Languages</h3>
+      <br>
+      <h4 class="languages-sub">Primary
+      <span class="devicons">
+        <!-- Ruby -->
+        <i class="devicon-ruby-plain colored"></i>
+        <!-- Rails -->
+        <i class="devicon-rails-plain colored"></i>
+        <!-- PostgreSQL -->
+        <i class="devicon-postgresql-plain colored"></i>
+        <!-- MySQL -->
+        <i class="devicon-mysql-plain colored"></i>
+        <!-- Cucumber -->
+        <i class="devicon-cucumber-plain colored"></i>
+        <!-- Heroku -->
+        <i class="devicon-heroku-plain colored"></i>
+        <!-- Git -->
+        <i class="devicon-git-plain colored"></i>
+        <!-- Github -->
+        <i class="devicon-github-plain colored"></i>
+        <!-- TravisCI -->
+        <i class="devicon-travis-plain colored"></i>
+        <!-- Amazon Web Service -->
+        <i class="devicon-amazonwebservices-original colored"></i>
+        </span></h4>
+      <br>
+      <h4 class="languages-sub">Secondary
+      <span class="devicons">
+        <!-- HTML -->
+        <i class="devicon-html5-plain-wordmark colored"></i>
+        <!-- CSS -->
+        <i class="devicon-css3-plain-wordmark colored"></i>
+        <!-- Javascript -->
+        <i class="devicon-javascript-plain colored"></i>
+        <!-- Sass -->
+        <i class="devicon-sass-original colored"></i>
+      </span></h4>
+    </div>
+    <br><br>
+
+    <div id="resume">
+      <h3>Resume</h3>
+      <br>
+      <!-- BioIQ -->
+      <p><b>BioIQ</b><br/>
+      Support Tech Engineer<br/>
+      Atlanta, GA<br/>
+      Aug 2016 - Current<br/>
+      Utilizing Ruby on Rails among other libaries such as haml, cucumber, RSpec; provide internal support for BioIQ’s products and services. Respond to incoming requests for support and drive informed and timely solutions. Drive the design of solutions implemented for clients and work with other Engineers in the delivery of new technical implementations.
+      </p>
+      <br>
+      <!-- BioIQ -->
+      <p><b>The Iron Yard</b><br/>
+      Ruby on Rails Back End Engineer<br/>
+      Atlanta, GA<br/>
+      Feb 2016 - May 2016<br/>
+      Twelve-week intensive immersion coding program. Back End Curriculum including but not limited to Ruby on Rails, data analytics, object oriented principles, test-driven development, agile development.
+      </p>
+      <br>
+      <!-- Pitt Plastics -->
+      <p><b>Pitt Plastics Inc.</b><br/>
+      Maintenance Mechanic<br/>
+      Morrow, GA<br/>
+      Nov 2014 - Sept 2015<br/>
+      Responsible for setting up/repairing thermoformers, trimpresses, and extruders. Install, repiair, maintain all mechanical, hydraulic, or pneumatic equipment in the facility. Other duties include rebuilding spare parts, replacing machine blades, and working with other maintenance personnel.
+      </p>
+    </div>
+    <br><br>
+
+  </div>
+  <!-- Wrapper -->
+
+  <footer class="footer">
+    <use xlink:href="#icon-earth">
+      <svg id="icon-earth" viewBox="0 0 1024 1024">
+        <path class="path1" d="M874.040 149.962c96.702 96.704 149.96 225.28 149.96 362.040s-53.258 265.334-149.96 362.038c-96.706 96.702-225.28 149.96-362.040 149.96s-265.334-53.258-362.040-149.96c-96.702-96.704-149.96-225.278-149.96-362.038s53.254-265.336 149.96-362.040c96.706-96.704 225.28-149.962 362.040-149.962s265.334 53.258 362.040 149.962zM828.784 828.786c63.058-63.060 104.986-141.608 122.272-227.062-13.474 19.836-26.362 27.194-34.344-17.206-8.22-72.39-74.708-26.148-116.516-51.86-44.004 29.658-142.906-57.662-126.098 40.824 25.934 44.422 140.008-59.45 83.148 34.542-36.274 65.616-132.642 210.932-120.106 286.258 1.582 109.744-112.134 22.884-151.314-13.52-26.356-72.92-8.982-200.374-77.898-236.086-74.802-3.248-139.004-10.046-167.994-93.67-17.446-59.828 18.564-148.894 82.678-162.644 93.85-58.966 127.374 69.054 215.39 71.434 27.328-28.594 101.816-37.686 107.992-69.75-57.75-10.19 73.268-48.558-5.528-70.382-43.47 5.112-71.478 45.074-48.368 78.958-84.238 19.642-86.936-121.904-167.91-77.258-2.058 70.59-132.222 22.886-45.036 8.572 29.956-13.088-48.86-51.016-6.28-44.124 20.916-1.136 91.332-25.812 72.276-42.402 39.21-24.34 72.16 58.29 110.538-1.882 27.708-46.266-11.62-54.808-46.35-31.356-19.58-21.924 34.57-69.276 82.332-89.738 15.918-6.82 31.122-10.536 42.746-9.484 24.058 27.792 68.55 32.606 70.878-3.342-59.582-28.534-125.276-43.608-193.292-43.608-97.622 0-190.47 31.024-267.308 88.39 20.65 9.46 32.372 21.238 12.478 36.296-15.456 46.054-78.17 107.876-133.224 99.124-28.586 49.296-47.412 103.606-55.46 160.528 46.112 15.256 56.744 45.45 46.836 55.55-23.496 20.488-37.936 49.53-45.376 81.322 15.010 91.836 58.172 176.476 125.27 243.576 84.616 84.614 197.118 131.214 316.784 131.214 119.664 0 232.168-46.6 316.784-131.214z"></path>
+      </svg>
+    </use>
+    <span>Jacksonville, FL</span>
+  </footer>
+
+  <!-- particles.js container-fluid -->
+  <div id="particles-js"></div>
+  <!-- particles.js lib - https://github.com/VincentGarreau/particles.js -->
+  <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <!-- jQuery -->
+  <script src="../../dist/js/jquery.js"></script>
+  <!-- Bootstrap Core JavaScript -->
+  <script src="../../dist/js/bootstrap.min.js"></script>
+  <script src="../../dist/js/main.js"></script>
+</body>
+</html>
