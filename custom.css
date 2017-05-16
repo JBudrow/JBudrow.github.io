@@ -9,10 +9,9 @@ html {
 }
 
 body {
-    margin-top: 3em;
-    margin-bottom: 60px;
-    padding-left: 5em;
-    max-width: 50%;
+  margin-top: 3em;
+  margin-bottom: 60px;
+  max-width: 60em;
 }
 
 #about-me {
@@ -54,19 +53,15 @@ img {
   height: 1.5em;
 }
 
-#devicon-list {
-  list-style: none;
+@media only screen and (min-width:480px) {
+  body {
+    margin: 0.4em 0.6em;
+    font-size: 70%;
+  }
 }
 
-span.devicons i {
-  font-size: 1.5em;
-  padding-left: 1em;
-}
-
-@media(min-width:768px) {
-    body {
-        margin-top: 50px;
-        max-width: 55em;
-        font-size: 70%;
-    }
+@media only screen and (min-width:480px) {
+  #about-id {
+    max-width: 100%
+  }
 }
