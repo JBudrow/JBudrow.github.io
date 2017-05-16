@@ -9,20 +9,19 @@ html {
 }
 
 body {
-  margin-top: 3em;
-  margin-bottom: 60px;
-  max-width: 60em;
+  margin: 3em 3em 3em 60px;
+  max-width: 55em;
 }
 
 #about-me {
-  font-size: 16px;
+  font-size: 15px;
 }
 
 img {
   float: left;
   margin-right: 25px;
   border-radius: 5px;
-  max-width: 145px;
+  max-width: 240px;
 }
 
 #media-icon {
@@ -45,7 +44,6 @@ img {
   width: 100%;
   /* Set the fixed height of the footer here */
   height: 25px;
-  background-color: #EEEEEE;
 }
 
 #icon-earth {
@@ -62,7 +60,7 @@ img {
 
 @media screen and (max-width:480px) {
   #about-id {
-    max-width: 45%
+    max-width: 50%
   }
 }
 
