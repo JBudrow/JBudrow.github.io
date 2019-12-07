@@ -1,0 +1,75 @@
+/* Particle.js
+-------------------------------------------------- */
+#particles-js{ position:absolute; width: 40%; height: 100%; background-image: url(""); background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; margin-left: 54em;}
+
+/* Sticky footer 
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+  font-size: smaller;
+  margin-top: 5em;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+  background-color: #F6F2DD;
+}
+.footer {
+  position: absolute;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  margin-top: 5em;
+}
+
+/* Header 
+-------------------------------------------------- */
+
+h3 {
+  overflow: hidden;
+  text-align: center;
+  color: #B52329;
+}
+
+h3:before,
+h3:after {
+  background-color: #000;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 50%;
+}
+
+h3:before {
+  right: 0.5em;
+  margin-left: -50%;
+}
+
+h3:after {
+  left: 0.5em;
+  margin-right: -50%;
+}
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+.container {
+  width: auto;
+  padding: 0 15px;
+}
+.container .text-muted {
+  margin: 20px 0;
+}
+
+a.disabled {
+  pointer-events: none;
+  cursor: default;
+}
+
+.img-responsive {
+  border-radius: 2.5%;
+}
